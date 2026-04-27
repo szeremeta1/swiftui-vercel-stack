@@ -1,0 +1,9 @@
+{
+  "name": "swiftui-vercel-stack",
+  "version": "0.1.0",
+  "description": "Hooks and helpers for SwiftUI iOS + Vercel/Next.js stacks. Auto-runs xcodebuild after Swift edits and reminds you to deploy after server edits.",
+  "author": { "name": "Alex Szeremeta", "email": "alexander@szeremeta.org" },
+  "homepage": "https://github.com/szeremeta/swiftui-vercel-stack",
+  "repository": "https://github.com/szeremeta/swiftui-vercel-stack",
+  "license": "MIT"
+}

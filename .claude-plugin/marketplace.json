@@ -1,0 +1,11 @@
+{
+  "name": "swiftui-vercel-stack",
+  "owner": { "name": "Alex Szeremeta", "email": "alexander@szeremeta.org" },
+  "plugins": [
+    {
+      "name": "swiftui-vercel-stack",
+      "source": "./plugins/swiftui-vercel-stack",
+      "description": "Hooks and helpers for SwiftUI iOS + Vercel/Next.js stacks. Auto-runs xcodebuild after Swift edits and reminds you to deploy after server edits."
+    }
+  ]
+}

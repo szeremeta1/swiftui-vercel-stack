@@ -1,0 +1,21 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/xcodebuild-after-swift.sh",
+            "if": "Edit(*.swift) | Write(*.swift) | MultiEdit(*.swift)"
+          },
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/vercel-deploy-reminder.sh",
+            "if": "Edit(server/**) | Edit(api/**) | Edit(app/api/**) | Write(server/**) | Write(api/**) | Write(app/api/**)"
+          }
+        ]
+      }
+    ]
+  }
+}

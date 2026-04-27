@@ -16,7 +16,7 @@ If your project's `CLAUDE.md` says things like *"run `xcodebuild` after every Sw
 ## Install
 
 ```
-/plugin marketplace add szeremeta/swiftui-vercel-stack
+/plugin marketplace add szeremeta1/swiftui-vercel-stack
 /plugin install swiftui-vercel-stack@swiftui-vercel-stack
 ```
 
